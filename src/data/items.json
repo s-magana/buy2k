@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Kirby & The Amazing Mirror",
+      "price": 10.99,
+      "imgUrl": "/images/kirbymirror.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Pokemon Emerald",
+      "price": 1199,
+      "imgUrl": "/images/pokemonemerald.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mega Man Battle Network 6",
+      "price": 14000,
+      "imgUrl": "/images/megaman6.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sonic Advance 3",
+      "price": 1.05,
+      "imgUrl": "/images/sonicadvance.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Legend of Zelda: The Minish Cap",
+      "price": 1.05,
+      "imgUrl": "/images/zeldaminishcap.jpg"
+    }
+]
