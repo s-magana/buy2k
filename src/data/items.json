@@ -1,32 +1,62 @@
 [
     {
       "id": 1,
-      "name": "Kirby & The Amazing Mirror",
-      "price": 10.99,
-      "imgUrl": "/images/kirbymirror.jpg"
+      "name": "TAMAGOTCHI",
+      "price": 65,
+      "imgUrl": "/images/tamagotchi.png"
     },
     {
       "id": 2,
-      "name": "Pokemon Emerald",
-      "price": 1199,
-      "imgUrl": "/images/pokemonemerald.jpg"
+      "name": "GAMEBOY COLOR",
+      "price": 600,
+      "imgUrl": "/images/gameboy-color.png"
     },
     {
       "id": 3,
-      "name": "Mega Man Battle Network 6",
-      "price": 14000,
-      "imgUrl": "/images/megaman6.jpg"
+      "name": "POKEMON GREEN",
+      "price": 125,
+      "imgUrl": "/images/pokemon-green.png"
     },
     {
       "id": 4,
-      "name": "Sonic Advance 3",
-      "price": 1.05,
-      "imgUrl": "/images/sonicadvance.jpg"
+      "name": "CD PLAYER",
+      "price": 215,
+      "imgUrl": "/images/cd-player.png"
     },
     {
       "id": 5,
-      "name": "The Legend of Zelda: The Minish Cap",
-      "price": 1.05,
-      "imgUrl": "/images/zeldaminishcap.jpg"
+      "name": "GOWON CD",
+      "price": 1111,
+      "imgUrl": "/images/gowon-cd.png"
+    }, 
+    {
+      "id": 6,
+      "name": "KINGDOM HEARTS II",
+      "price": 80,
+      "imgUrl": "/images/kingdom-hearts.png"
+    },
+    {
+      "id": 7,
+      "name": "iPOD",
+      "price": 450,
+      "imgUrl": "/images/ipod.png"
+    },
+    {
+      "id": 8,
+      "name": "iBOOK",
+      "price": 5000,
+      "imgUrl": "/images/ibook.png"
+    },
+    {
+      "id": 9,
+      "name": "iDOG",
+      "price": 100,
+      "imgUrl": "/images/idog.png"
+    },
+    {
+      "id": 10,
+      "name": "FILM CAMERA",
+      "price": 95,
+      "imgUrl": "/images/film-camera.png"
     }
 ]

@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+.home-bg {
+    background-image: url("/images/main-bg-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.carousel-bg {
+    background-image: url("/images/home-bg.gif"), url("/images/main-bg-2.png");
+    background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+    background-size: 500px 280px, cover;
+    height: 350px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-font {
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+    color: #FFF;
+    text-shadow: #FFF 1px 0 10px;
+    line-height: 1;
+    padding-left: 220px;
+    padding-right: 0;
+}
+
+.home-font {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.shop-btn {
+    font-size: 15px !important;
+    font-weight: 550 !important;
+    background-color: rgba(128, 139, 152, 1) !important;
+    border: 2px solid #FFF !important;
+    border-radius: 20px !important;
+    margin-left: 100px;
+}
+
+.shop-btn:hover {
+    color: rgba(128, 139, 152, 1) !important;
+    background-color: #FFF !important;
+    border: 2px solid rgba(128, 139, 152, 1) !important;
+}
+
+.gameboy-size {
+    width: 525px;
+    padding-right: 100px;
+}
+
+.nav-font {
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+}
+
+.nav-color {
+    background-color: rgba(244, 245, 241, 0.8) !important;
+}
+
+.nav-hover:hover{
+    text-shadow: #000 1px 0 10px;
+}
+
+.logo-size {
+    max-width: 135px;
+}
+
+.carousel-font{
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+    text-shadow: #FFF 1px 0 10px;
+    color: #FFF;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.carousel-width {
+    width: 200px !important;
+}
+
+.image-size {
+    height: 180px;
+    width: 100%;
+}
+
+footer {
+    background-color: rgba(21, 52, 127, 1);
+    color: rgba(244, 245, 241, 1);
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+.store-bg {
+    background-color: rgba(249, 249, 249, 1);
+    background-image: url("/images/shop-bg-4.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 275px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.all-products-font {
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+    text-shadow: #000 1px 0 10px;
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: underline;
+}
+
+.card-font {
+    font-family: 'Orbitron', Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 1;
+    border: 1px solid rgba(128, 139, 152, 1) !important;
+}
+
+.add-cart-btn {
+    background-color: rgba(121, 141, 210, 1) !important;
+    border: 2px solid rgba(105, 124, 193, 1) !important;
+    border-radius: 20px !important;
+}
+
+.increase-decrease-btn {
+    background-color: rgba(121, 141, 210, 1) !important;
+    border: 1px solid rgba(105, 124, 193, 1) !important;
+}
+
+.remove-btn {
+    background-color: rgba(175, 40, 40, 1) !important;
+    border: 1px solid rgba(139, 33, 33, 1) !important;
+}
+
+.remove-cart-btn {
+    color: rgba(175, 40, 40, 1) !important;
+    background-color: #FFF !important;
+    border: 1px solid rgba(139, 33, 33, 1) !important;
+}
+
+.remove-cart-btn:hover {
+    color: #FFF !important;
+    background-color: rgba(175, 40, 40, 1) !important;
+    border: 1px solid rgba(139, 33, 33, 1) !important;
+}
+
+.shopping-cart {
+    color: rgba(121, 141, 210, 1) !important;
+    background-color: rgba(244, 245, 241, 0.8) !important;
+    border: 1px solid rgba(105, 124, 193, 1) !important;
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+}
+
+.shopping-cart:hover {
+    color: #FFF !important;
+    background-color: rgba(121, 141, 210, 1) !important;
+    border: 1px solid rgba(105, 124, 193, 1) !important;
+}
+
+.cart-num-image {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.about-bg {
+    background-image: url("/images/about-bg-2.jpg"), url("/images/about-bg-1.jpg");
+    background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+    background-size: 600px auto, cover;
+    min-height: 85.5vh;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.shop-des {
+    padding: 0 350px;
+}
+
+/* Media Query for Small Mobile Devices */
+@media (max-width: 444px) {
+    .nav-font {
+        font-size: 10px;
+    }
+    .home-bg {
+        height: 300px;
+    }
+    .main-font {
+        padding-left: 140px;
+    }
+    .gameboy-size {
+        width: 290px;
+        padding-right: 120px;
+    }
+    .home-font {
+        font-size: 23px;
+    }
+    .shop-btn {
+        font-size: 8px !important;
+        margin-left: 35px;
+    }
+    .carousel-bg {
+        background-size: 320px 200px, cover;
+        height: 230px;
+    }
+    .carousel-font{
+        font-size: 20px
+    }
+    .carousel-width {
+        width: 150px !important;
+    }
+    .image-size {
+        height: 140px;
+        width: 100%;
+    }
+    .store-bg {
+        background-size: 170px 150px;
+    }
+    .about-bg {
+        background-size: 310px auto, cover;
+    }
+    .shop-des {
+        padding: 85px;
+        font-size: 10px;
+    }
+    .logo-size {
+        max-width: 95px;
+    }
+    .shopping-cart {
+        width: 42px;
+        height: 42px;
+    }
+    .cart-num-image {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (min-width: 445px) and (max-width: 514px) {
+    .nav-font {
+        font-size: 14px;
+    }
+    .home-bg {
+        height: 300px;
+    }
+    .main-font {
+        padding-left: 140px;
+    }
+    .gameboy-size {
+        width: 290px;
+        padding-right: 120px;
+    }
+    .home-font {
+        font-size: 23px;
+    }
+    .shop-btn {
+        font-size: 8px !important;
+        margin-left: 35px;
+    }
+    .carousel-bg {
+        background-size: 320px 200px, cover;
+        height: 230px;
+    }
+    .carousel-font{
+        font-size: 20px
+    }
+    .carousel-width {
+        width: 150px !important;
+    }
+    .image-size {
+        height: 140px;
+        width: 100%;
+    }
+    .store-bg {
+        background-size: 200px 170px;
+    }
+    .about-bg {
+        background-size: 410px auto, cover;
+    }
+    .shop-des {
+        padding: 90px;
+        font-size: 10px;
+    }
+    .logo-size {
+        max-width: 115px;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 515px) and (max-width: 767px) {
+    .home-bg {
+        height: 450px;
+    }
+    .main-font {
+        padding-left: 150px;
+    }
+    .gameboy-size {
+        width: 400px;
+        padding-right: 120px;
+    }
+    .home-font {
+        font-size: 28px;
+    }
+    .shop-btn {
+        font-size: 10px !important;
+        margin-left: 50px;
+    }
+    .carousel-bg {
+        background-size: 390px 230px, cover;
+        height: 270px;
+    }
+    .store-bg {
+        background-size: 165px 160px;
+    }
+    .about-bg {
+        background-size: 480px auto, cover;
+    }
+    .shop-des {
+        padding: 168px;
+        font-size: 12px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1101px){
+    .gameboy-size {
+        width: 480px;
+        padding-right: 120px;
+    }
+    .home-font {
+        font-size: 38px;
+    }
+    .shop-btn {
+        font-size: 13px !important;
+        margin-left: 80px;
+    }
+    .store-bg {
+        background-size: 175px 180px;
+    }
+    .about-bg {
+        background-size: 660px auto, cover;
+    }
+    .shop-des {
+        padding: 0 250px;
+    }
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1102px) and (max-width: 1200px){
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1201px) {
+    .gameboy-size {
+        width: 570px;
+    }
+    .home-font {
+        font-size: 45px;
+    }
+    .shop-btn {
+        font-size: 20px !important;
+    }
+    .carousel-font{
+        font-size: 32px;
+    }
+    .carousel-width {
+        width: 200px !important;
+    }
+    .image-size {
+        height: 200px;
+    }
+    .shop-des {
+        padding: 0 425px;
+    }
+}

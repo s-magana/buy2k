@@ -5,25 +5,26 @@ import { useShoppingCart } from '../context/ShoppingCartContext'
 export function Navbar(){
   const { openCart, cartQuantity } = useShoppingCart()
   return(
-		<NavbarBS sticky='top' className='bg-white shadow-sm mb-3'>
+		<NavbarBS sticky='top' className='nav-color shadow-sm'>
 			<Container>
-				<Nav className='me-auto'>
-					<Nav.Link to='/' as={NavLink}>
+				<Nav className='text-uppercase nav-font me-auto align-items-center'>
+          <Nav.Link className='p-0 me-4' to='/' as={NavLink}>
+						<img className='logo-size' src='images/shop-logo.png' alt='Buy2k logo' />
+					</Nav.Link>
+					<Nav.Link className='nav-hover' to='/' as={NavLink}>
 						Home
 					</Nav.Link>
-					<Nav.Link to='/store' as={NavLink}>
-						Store
+					<Nav.Link className='nav-hover' to='/store' as={NavLink}>
+						Shop
 					</Nav.Link>
-					<Nav.Link to='/about' as={NavLink}>
+					<Nav.Link className='nav-hover' to='/about' as={NavLink}>
 						About
 					</Nav.Link>
 				</Nav>
         {cartQuantity > 0 && (
 				<Button
             onClick={openCart}
-            style={{ width: "3rem", height: "3rem", position: "relative" }}
-            variant="outline-primary"
-            className="rounded-circle"
+            className="rounded-circle shopping-cart"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +35,10 @@ export function Navbar(){
             </svg>
             
             <div
-              className="rounded-circle bg-danger d-flex justify-content-center align-items-center"
+              className="rounded-circle d-flex justify-content-center align-items-center cart-num-image"
               style={{
+                backgroundColor: "rgba(175, 40, 40, 1)",
                 color: "white",
-                width: "1.5rem",
-                height: "1.5rem",
                 position: "absolute",
                 bottom: 0,
                 right: 0,

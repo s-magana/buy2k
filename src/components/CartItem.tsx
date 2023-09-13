@@ -14,8 +14,8 @@ export function CartItem({ id, quantity } : CartItemProps) {
   if (item == null) return null
 
   return (
-    <Stack direction="horizontal" gap={2} className="d-flex align-items-center">
-      <img src={item.imgUrl} style={{width: "125px", height: "75px", objectFit: "cover"}} alt="" />
+    <Stack direction="horizontal" gap={2} className="d-flex align-items-center nav-font text-uppercase">
+      <img src={item.imgUrl} style={{width: "125px", height: "75px", objectFit: "contain"}} alt="" />
       <div className="me-auto">
         <div>
           {item.name} {quantity > 1 && <span className="text-muted" style={{fontSize: ".65rem"}}>x{quantity}</span> }
@@ -28,7 +28,7 @@ export function CartItem({ id, quantity } : CartItemProps) {
         {formatCurrency(item.price * quantity)}
       </div>
         
-      <Button variant="outline-danger" size="sm" onClick={() => removeFromCart(item.id)}>&times;</Button>
+      <Button size="sm" className='remove-cart-btn' onClick={() => removeFromCart(item.id)}>&times;</Button>
 
     </Stack>
   )
