@@ -195,7 +195,7 @@ footer {
         font-size: 10px;
     }
     .home-bg {
-        height: 300px;
+        height: 370px;
     }
     .main-font {
         padding-left: 140px;
@@ -213,7 +213,7 @@ footer {
     }
     .carousel-bg {
         background-size: 320px 200px, cover;
-        height: 230px;
+        height: 280px;
     }
     .carousel-font{
         font-size: 20px
@@ -254,13 +254,13 @@ footer {
         font-size: 14px;
     }
     .home-bg {
-        height: 300px;
+        height: 350px;
     }
     .main-font {
         padding-left: 140px;
     }
     .gameboy-size {
-        width: 290px;
+        width: 330px;
         padding-right: 120px;
     }
     .home-font {
@@ -272,7 +272,7 @@ footer {
     }
     .carousel-bg {
         background-size: 320px 200px, cover;
-        height: 230px;
+        height: 270px;
     }
     .carousel-font{
         font-size: 20px
@@ -382,7 +382,10 @@ footer {
     .image-size {
         height: 200px;
     }
+    .about-bg {
+        background-size: 700px auto, cover;
+    }
     .shop-des {
-        padding: 0 425px;
+        padding: 0 400px;
     }
 }
