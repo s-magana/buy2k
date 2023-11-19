@@ -1,6 +1,7 @@
 import { Button, Carousel } from 'react-bootstrap';
 import storeItems from '../data/items.json'
 import '../index.css';
+import { Link } from 'react-router-dom';
 
 export function Home(){
     return (
@@ -8,7 +9,7 @@ export function Home(){
             <section className='home-bg d-flex justify-content-center align-items-center'>
                 <div className='text-uppercase main-font'>
                     <h2 className='home-font m-0'>new gameboy collection</h2>
-                    <Button className='shop-btn' href="/store">Shop Now</Button>
+                    <Link to={'/store'}><Button className='shop-btn'>Shop Now</Button></Link>
                 </div>
                 <div>
                     <img className='gameboy-size' src="/images/gameboy-sp.png" />

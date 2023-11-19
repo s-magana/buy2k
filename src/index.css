@@ -26,7 +26,6 @@
     color: #FFF;
     text-shadow: #FFF 1px 0 10px;
     line-height: 1;
-    padding-left: 220px;
     padding-right: 0;
 }
 
@@ -42,6 +41,8 @@
     border: 2px solid #FFF !important;
     border-radius: 20px !important;
     margin-left: 100px;
+    text-transform: uppercase;
+    text-shadow: #FFF 1px 0 10px;
 }
 
 .shop-btn:hover {
@@ -51,8 +52,7 @@
 }
 
 .gameboy-size {
-    width: 525px;
-    padding-right: 100px;
+    width: 100%;
 }
 
 .nav-font {
@@ -198,11 +198,7 @@ footer {
         height: 370px;
     }
     .main-font {
-        padding-left: 140px;
-    }
-    .gameboy-size {
-        width: 290px;
-        padding-right: 120px;
+        padding-left: 20px;
     }
     .home-font {
         font-size: 23px;
@@ -257,11 +253,10 @@ footer {
         height: 350px;
     }
     .main-font {
-        padding-left: 140px;
+        padding-left: 40px;
     }
     .gameboy-size {
-        width: 330px;
-        padding-right: 120px;
+        padding-right: 40px;
     }
     .home-font {
         font-size: 23px;
@@ -298,18 +293,49 @@ footer {
         max-width: 115px;
     }
 }
-  
-/* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 515px) and (max-width: 767px) {
+
+@media (min-width: 515px) and (max-width: 600px) {
     .home-bg {
         height: 450px;
     }
     .main-font {
-        padding-left: 150px;
+        padding-left: 40px;
     }
     .gameboy-size {
-        width: 400px;
-        padding-right: 120px;
+        padding-right: 30px;
+    }
+    .home-font {
+        font-size: 28px;
+    }
+    .shop-btn {
+        font-size: 10px !important;
+        margin-left: 50px;
+    }
+    .carousel-bg {
+        background-size: 390px 230px, cover;
+        height: 270px;
+    }
+    .store-bg {
+        background-size: 165px 160px;
+    }
+    .about-bg {
+        background-size: 480px auto, cover;
+    }
+    .shop-des {
+        padding: 168px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 679px) {
+    .home-bg {
+        height: 450px;
+    }
+    .main-font {
+        padding-left: 80px;
+    }
+    .gameboy-size {
+        padding-right: 60px;
     }
     .home-font {
         font-size: 28px;
@@ -334,10 +360,71 @@ footer {
     }
 }
   
-/* Media Query for Tablets Ipads portrait mode */
-@media (min-width: 768px) and (max-width: 1101px){
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 680px) and (max-width: 767px) {
+    .home-bg {
+        height: 450px;
+    }
+    .main-font {
+        padding-left: 120px;
+    }
     .gameboy-size {
-        width: 480px;
+        padding-right: 100px;
+    }
+    .home-font {
+        font-size: 28px;
+    }
+    .shop-btn {
+        font-size: 10px !important;
+        margin-left: 50px;
+    }
+    .carousel-bg {
+        background-size: 390px 230px, cover;
+        height: 270px;
+    }
+    .store-bg {
+        background-size: 165px 160px;
+    }
+    .about-bg {
+        background-size: 480px auto, cover;
+    }
+    .shop-des {
+        padding: 168px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+    .main-font {
+        padding-left: 90px;
+    }
+    .gameboy-size {
+        padding-right: 70px;
+    }
+    .home-font {
+        font-size: 38px;
+    }
+    .shop-btn {
+        font-size: 13px !important;
+        margin-left: 80px;
+    }
+    .store-bg {
+        background-size: 175px 180px;
+    }
+    .about-bg {
+        background-size: 660px auto, cover;
+    }
+    .shop-des {
+        padding: 0 250px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 900px) and (max-width: 1101px){
+    .main-font {
+        padding-left: 150px;
+    }
+    .gameboy-size {
         padding-right: 120px;
     }
     .home-font {
@@ -360,12 +447,21 @@ footer {
   
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1102px) and (max-width: 1200px){
+    .main-font {
+        padding-left: 160px;
+    }
+    .gameboy-size {
+        padding-right: 140px;
+    }
 }
   
 /* Media Query for Large screens */
 @media (min-width: 1201px) {
+    .main-font {
+        padding-left: 220px;
+    }
     .gameboy-size {
-        width: 570px;
+        padding-right: 200px;
     }
     .home-font {
         font-size: 45px;
