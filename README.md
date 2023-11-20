@@ -3,6 +3,8 @@ Trying to keep up with the latest Y2K trends that have been revived in today's g
 
 **Link to project:** https://buy2k.netlify.app/
 
+https://github.com/s-magana/buy2k/assets/113574110/85bc7f93-d8b3-43e4-9b4b-019622d3d5ae
+
 ## How It's Made:
 
 **Tech used:** React, TypeScript, Bootstrap
