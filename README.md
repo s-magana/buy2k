@@ -1,7 +1,7 @@
 # Buy2k
 Trying to keep up with the latest Y2K trends that have been revived in today's generation? Check out Buy2k, an easy and accessible e-commerce shop that takes you back to the year 2000.
 
-**Link to project:** https://buy2k.netlify.app/
+**Link to project:** https://buy2k.netlify.app
 
 https://github.com/s-magana/buy2k/assets/113574110/85bc7f93-d8b3-43e4-9b4b-019622d3d5ae
 
