@@ -10,7 +10,7 @@ https://github.com/s-magana/buy2k/assets/113574110/85bc7f93-d8b3-43e4-9b4b-01962
 **Tech used:** React, TypeScript, Bootstrap
 
 Setting up the app using Vite, I began this project by first adding routing to the appropriate pages I planned to have. I then created the navbar and logo that would be prominent throughout every part of the app. Next, on the store page, I used json 
-data and a currency utiilty to develop cards for each store item. With each item rendering, I built a quantity context that would allow the user to increase/decrease item quantities. With the individual items finished, I made the shopping cart component that displays the items wanting to be purchased and the total price. Lastly, I added local storage and finalized styling decisions. 
+data and a currency utility to develop cards for each store item. With each item rendering, I built a quantity context that would allow the user to increase/decrease item quantities. With the individual items finished, I made the shopping cart component that displays the items wanting to be purchased and the total price. Lastly, I added local storage and finalized styling decisions. 
 
 ## Optimizations
 
